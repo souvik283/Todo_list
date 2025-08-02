@@ -1,47 +1,51 @@
-<style>
-        body{
+        body {
             background-color: black;
             color: azure;
-           
-        
         }
-        .main{
+
+        .main {
+            justify-items: center;
+            display: flex;
+            flex-direction: column;
+            width: 60%;
+            background-color: rgb(60, 60, 61);
+            padding: 15px;
+            border-radius: 5px;
+            align-items: center;
+            margin-left: 19vw;
+            margin-bottom: 10px;
+
+        }
+
+        .main2 {
+            align-items: center;
+            justify-content: center;
             display: flex;
             flex-direction: column;
             background-color: rgb(60, 60, 61);
             padding: 15px;
             border-radius: 5px;
-            align-items: center;
-            margin-bottom: 10px;
-    
-        }
-        
-        .main2{
-            align-items: center;
-            justify-content: center;
-            display:flex;
-           flex-direction: column;
-            background-color: rgb(60, 60, 61);
-            padding: 15px;
-            border-radius: 5px;
-            align-items: center;
+            width: 50%;
+            margin-left: 24vw;
             margin-bottom: 10px;
         }
-        .content{
+
+        .content {
             display: flex;
         }
-        .input{
+
+        .input {
             width: 27em;
-            height: 25px ;
+            height: 25px;
             border-radius: 5px;
             margin: 6px;
             background: transparent;
-            color:aliceblue;
+            color: aliceblue;
             box-shadow: 0 8px 16px rgba(116, 117, 117, 0.5);
 
         }
-        
-        .btn{
+
+        .btn {
             margin: 10px 16px;
             height: 30px;
             width: 70px;
@@ -49,22 +53,21 @@
             font-size: 15px;
             cursor: pointer;
         }
-        .del{
-             margin: 10px 16px;
+
+        .del {
+            margin: 10px 16px;
             height: 30px;
             width: 70px;
             background-color: rgb(240, 14, 25);
             font-size: 15px;
             cursor: pointer;
         }
-        p
-        h4{
+
+        p h4 {
             background-color: rgb(203, 26, 26);
-            display:flex;
+            display: flex;
             margin: 2px;
             height: 90px;
             align-items: center;
             border-radius: 4px;
         }
-
-    </style>
