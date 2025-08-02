@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>write your daily note</title>
+    <style>
+        body{
+            background-color: black;
+            color: azure;
+           
+        
+        }
+        .main{
+            display: flex;
+            flex-direction: column;
+            background-color: rgb(60, 60, 61);
+            padding: 15px;
+            border-radius: 5px;
+            align-items: center;
+            margin-bottom: 10px;
+    
+        }
+        
+        .main2{
+            align-items: center;
+            justify-content: center;
+            display:flex;
+           flex-direction: column;
+            background-color: rgb(60, 60, 61);
+            padding: 15px;
+            border-radius: 5px;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        .content{
+            display: flex;
+        }
+        .input{
+            width: 27em;
+            height: 25px ;
+            border-radius: 5px;
+            margin: 6px;
+            background: transparent;
+            color:aliceblue;
+            box-shadow: 0 8px 16px rgba(116, 117, 117, 0.5);
+
+        }
+        
+        .btn{
+            margin: 10px 16px;
+            height: 30px;
+            width: 70px;
+            background-color: aqua;
+            font-size: 15px;
+            cursor: pointer;
+        }
+        .del{
+             margin: 10px 16px;
+            height: 30px;
+            width: 70px;
+            background-color: rgb(240, 14, 25);
+            font-size: 15px;
+            cursor: pointer;
+        }
+        p
+        h4{
+            background-color: rgb(203, 26, 26);
+            display:flex;
+            margin: 2px;
+            height: 90px;
+            align-items: center;
+            border-radius: 4px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="main">
+
+       
+        <h4>Save Your Daily Task Here</h4>
+        <input id="input-no" class="input" type="text" placeholder="Enter Your Note No."> 
+        <input id="input-text" type="text" class="input" placeholder="Enter Your Note"> 
+    <button id="button" class="btn">Save</button>
+    </div>
+    <div class="main2" id="second">
+
+    </div>
+
+    <script src="/projects/todo.js"></script>
+</body>
+</html>
